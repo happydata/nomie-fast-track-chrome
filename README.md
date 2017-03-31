@@ -1,11 +1,11 @@
 # Nomie FastTrack for Chrome
 
-A chrome extension to quickly track (and create notes) straight from your browser thanks to the Nomie API. (Subscribe here)
+A chrome extension to quickly track (and create notes) straight from your browser thanks to the Nomie API - [Subscribe to the API ](https://connect.nomie.io)
 
-![Nomie FastTrack Life Tracker and Journaling app](http://snap.icorbin.com/Screen-Shot-2017-03-31-12-03-52.png)
+![Nomie FastTrack Life Tracker and Journaling app](http://snap.icorbin.com/Screen-Shot-2017-03-31-14-17-55.png)
 
 
-## Installation 
+## Installation
 
 ```
 git clone git@github.com:happydata/nomie-fast-track-chrome.git
@@ -25,6 +25,16 @@ Launch Chrome and go to Settings
 You should now have Nomie in your icon bar. Tap it and provide your Nomie API.
 
 ![](http://snap.icorbin.com/Screen-Shot-2017-03-31-12-32-31.png)
+
+## Developing
+
+```
+cd nomie-fast-track-chrome
+npm install
+gulp dev
+```
+
+Go to Settings in Chrome, and this time select ``Load unpacked extension`` and select the chrome folder.
 
 ## Backstory
 
