@@ -1,0 +1,29 @@
+{
+  "name": "Nomie Fast Track",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Fast tracking with Nomie and Chrome. Requires a Nomie API Subscription",
+  "homepage_url": "https://nomie.io",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+	"background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "Nomie Fast Track",
+    "default_popup": "nomie-fast-track.html"
+  },
+  "permissions": [
+    "geolocation",
+    "https://api.nomie.io/*"
+  ]
+}
